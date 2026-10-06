@@ -67,10 +67,11 @@ margin-left: 200px;
 }
 #par{
     display: inline-block;
-    margin: 30px;
-    padding: 30px;
+    margin: 13px;
+    padding: 13px;
     background-color: #5dbfec;
-    border-radius: 50px
+    border-radius: 50px;
+    font-family: cursive;
 }
 
 #paragrafo-olaf{
@@ -100,7 +101,7 @@ img{
     border-radius: 25px;
 }
 .card{
-    height:270px;
+    height:280px;
     width: 380px;
     background-color:#7ebfed;
     margin: 30px;
@@ -147,4 +148,9 @@ height: 215px;
 border-radius: 30px;
 text-align: center;
 }
-
+h3{
+    font-family: cursive;
+}
+h2{
+    font-family: cursive;
+}

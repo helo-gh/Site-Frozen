@@ -1,0 +1,157 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#inicio{
+    margin: 50px;
+    padding: 4px;
+    text-align: center;
+    background-color: #7ebfed;
+    font-size: 30px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+#personagem{
+    margin: 50px;/*Margem*/
+    padding: 1px;
+    text-align: center;
+    background-color: #7ebfed;
+    font-size: 30px;
+    border-radius: 60px;
+    text-decoration: none;
+}
+#filmes{
+    margin: 50px;
+    padding: 1px;
+    text-align: center;
+    background-color: #7ebfed;
+    font-size: 30px;
+    border-radius: 60px;
+    text-decoration: none;
+}
+header{
+    text-align: center;
+    background-color: #c5eff8;
+    height: 200px;
+}
+#log{
+    width: 350px;
+    height: 150px;
+    text-align: center;
+    background-color: #c5eff8;
+}
+/*Seção linha 1 display serve para organizar, alinhar e distribuir!!!!
+NÃO CONFUNDIR OS ELEMENTOS DE CADA TAG :(*/
+.linha-1{
+    background-color:#7ebfed;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    
+}
+.cards{
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+align-items: center;
+background-color: #c5eff8;
+   border-radius: 25px;
+   height: 400px;
+   width: 350px;
+  
+   
+}
+.cards:hover{
+transform: translateY(-10px);
+-webkit-box-shadow: #FFF 0 -1px 4px, rgb(150, 255, 224) 0 -2px 10px, #3b69ff 0 -10px 20px, rgb(0, 119, 255) 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: #FFF 0 -1px 4px, rgb(152, 255, 195) 0 -2px 10px, #4982ff 0 -10px 20px, rgb(0, 132, 255) 0 -18px 40px, 5px 5px 15px 5px rgb(0, 255, 255);
+    transition: 1s;
+   
+}
+#Elsa{
+    height: 280px;
+    width: 250px;
+    border-radius: 25px;
+    text-align: center;
+    border-radius: 86% 14% 86% 14% / 20% 86% 14% 80% 
+    }
+
+#Anna{
+    height: 280px;
+    width: 250px;
+    border-radius: 25px;
+    object-fit: cover;
+    border-radius: 86% 14% 86% 14% / 20% 86% 14% 80% 
+}
+#Olaf{
+    height: 280px;
+    width: 250px;
+    border-radius: 25px;
+    object-fit: cover;
+    border-radius: 86% 14% 86% 14% / 20% 86% 14% 80% 
+}
+#Kristoff{
+    height: 280px;
+    width: 250px;
+    border-radius: 25px;
+    object-fit: cover;
+    border-radius: 86% 14% 86% 14% / 20% 86% 14% 80% }
+
+    #Hans{
+        height: 280px;
+        width: 250px;
+        border-radius: 25px;
+        object-fit: cover;
+        border-radius: 86% 14% 86% 14% / 20% 86% 14% 80% 
+    }
+    #Sven{
+        height: 280px;
+        width: 250px;
+        border-radius: 25px;
+        object-fit: cover;
+        border-radius: 86% 14% 86% 14% / 20% 86% 14% 80% 
+    }
+    #bruni{
+        height: 280px;
+        width: 250px;
+        border-radius: 25px;
+        object-fit: cover;
+        border-radius: 86% 14% 86% 14% / 20% 86% 14% 80% 
+    }
+    #Vovô-Pabbie{
+        height: 280px;
+        width: 250px;
+        border-radius: 25px;
+        object-fit: cover;
+        border-radius: 86% 14% 86% 14% / 20% 86% 14% 80% 
+    }
+    #Marshmallow{
+        height: 280px;
+        width: 250px;
+        border-radius: 25px;
+        object-fit: cover;
+        border-radius: 86% 14% 86% 14% / 20% 86% 14% 80% ;
+        
+    }
+h3{
+    font-family:cursive;
+}
+h4{
+    background-color: #7edced;
+    font-family: cursive;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 4px;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+#cor{
+background-color: rgb(54, 181, 255);
+border-radius: 15px;
+}
